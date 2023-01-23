@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "SurvivalOnly",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survival_only",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "survivalonly",
+    "modName": "No Gamemode",
+    "version": "1.0.0",
+    "description": "Prevents players from entering any gamemode other than Survival",
+    "author": "Trains77",
+    "websiteURL": "https://github.com/Trains77/NoGamemode",
+    "license": "Mozilla Public License 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.survivalonly",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
